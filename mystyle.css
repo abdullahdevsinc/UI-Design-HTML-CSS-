@@ -30,8 +30,6 @@ nav> a{
   font-weight: bold;
 }
 
-
-
 header > nav > a:hover{
   color: #15d382;
   text-decoration: none;
@@ -91,10 +89,15 @@ font-size: 70px;
   font-size: 50px;
 }
 
-#icondiv{
+/*#icondiv{
   text-align: center;
   font-size: 30px;
+}*/
 
+#sec3 > #d2 > p{
+  display: inline-block;
+  width: 40%;
+  font-size: 40px;
 }
 
 #imgdiv{
@@ -117,23 +120,13 @@ font-size: 70px;
   padding-top: 90px;
 }
 
-#sec3 > #d2{
-  display: inline;
-  font-size: 20px;
 
-}
-
-#sec3 > #d2 > p{
-  display: inline-block;
-  width: 40%;
-  text-align: left;
-}
 /*#sec3 > #d2 > .center{
 margin-left: 7%;
 margin-right: 7%;
-}
+}*/
 
-.center #td{
+/*.center #td{
   text-align: left;
   font-size: 20px;
   padding-left: 15px;
@@ -160,15 +153,10 @@ margin-right: 7%;
   border: none;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 #sec3 > #btndiv > i{
   font-size: 35px;
-}
-
-#sec3{
-  padding-bottom: 90px;
 }
 
 #sec4 > #div1{
@@ -220,17 +208,13 @@ margin-top: 1%;
 #sec5{
   background-color: #3c5773;
   padding-bottom: 110px;
-  text-align: center;
-  color: white;
 }
 
-#section5_div{
-  display: inline-block;
-  padding-top:60px;
-  padding-left: 30px;
-  width: 20%;
+#sec5 > div {
+  padding-top: 90px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
-
 
 #tb2 td , #tb2 th {
   text-align: center;
@@ -263,11 +247,11 @@ margin-top: 1%;
 }
 
 
-/*#sec5 > div{
+#sec5 > div{
   position: relative;
   margin-left:10%;
   margin-right: 10%;
-}*/
+}
 
 #s3d1{
   display: inline-block;
@@ -371,25 +355,10 @@ footer > div{
     padding-top: 10px;
   }
 
-
-  #tb2 td:before{
-    content: attr(data-label);
-    position: absolute;
-    left: 0;
-    width: 50%;
-    font-size: 15px;
-    text-align: left;
-    padding-left: 15px;
-    font-size: 15px;
-    font-weight: bold;
+  #sec3 > #btndiv{
+    margin-right: auto;
+    margin-left: auto;
   }
-
-#sec3 > #btndiv{
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
 }
 
 
@@ -401,17 +370,6 @@ footer > div{
   #subbtn{
       padding-left: 100px;
       padding-right: 100px;
-    }
-
-    #sec3 > #d2 >p{
-      width:100%;
-      text-align: center;
-      padding-top: 10px;
-    }
-
-    #sec5 > #section5_div {
-      width: 100%;
-      padding-left: 0px;
     }
   }
 
@@ -430,16 +388,8 @@ footer > div{
       padding-left: 100px;
       padding-right: 100px;
     }
-
-    #sec3 > #d2 >p{
-      width:100%;
-      text-align: center;
-      padding-top: 10px;
-    }
-
-    #sec5 > #section5_div {
-      width: 100%;
-      padding-left: 0px;
+    header{
+      height: 50px;
     }
   }
 
@@ -465,17 +415,6 @@ footer > div{
     #subbtn{
       padding-left: 250px;
       padding-right: 250px;
-    }
-
-    #sec3 > #d2 >p{
-      width:100%;
-      text-align: center;
-      padding-top: 10px;
-    }
-
-    #sec5 > #section5_div {
-      width: 100%;
-      padding-left: 0px;
     }
   }
 
@@ -511,17 +450,6 @@ footer > div{
       padding-left: 150px;
       padding-right: 150px;
     }
-
-    #sec3 > #d2 >p{
-      width:100%;
-      text-align: center;
-      padding-top: 10px;
-    }
-
-    #sec5 > #section5_div {
-      width: 100%;
-      padding-left: 0px;
-    }
   }
 
 @media only screen and (max-width: 375px)  {
@@ -556,17 +484,6 @@ footer > div{
       padding-left: 120px;
       padding-right: 120px;
     }
-
-    #sec3 > #d2 >p{
-      width:100%;
-      text-align: center;
-      padding-top: 10px;
-    }
-
-    #sec5 > #section5_div {
-      width: 100%;
-      padding-left: 0px;
-    }
   }
 
 @media only screen and (max-width: 360px) {
@@ -600,19 +517,4 @@ footer > div{
       padding-left: 100px;
       padding-right: 100px;
     }
-
-    #sec3 > #d2 >p{
-      width:100%;
-      text-align: center;
-      padding-top: 10px;
-    }
-
-    #sec5 > #section5_div {
-      width: 100%;
-      padding-left: 0px;
-    }
-    /*#subbtn > input[type=submit]{
-      font-size: 5px;
-  }*/
-
   }
